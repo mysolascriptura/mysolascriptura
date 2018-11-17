@@ -43,7 +43,7 @@ footer: {
     color: #283636;
 }
 .item .img-container {
-    display: inline-block;
+    display: flex;
     width: 210px;
     height: 80px;
     padding: 0;
@@ -52,7 +52,6 @@ footer: {
 .item img {
     max-height: 100%;
     margin: auto;
-    display: block;
 }
 section .border {
     border: solid 1px #283636;
