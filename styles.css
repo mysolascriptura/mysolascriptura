@@ -63,10 +63,10 @@ section .border {
     margin-bottom: 5px;
     margin-top: 16px;
 }
-.text {
+.passage .text {
     font-size: 26px;
 }
-.link {
+.passage .link {
     font-size: 18px;
 }
 .item .domain-address {
@@ -76,16 +76,17 @@ section .border {
     font-size: 20px;
     color: gray;
 }
-@media screen and (max-width: 760px) and (min-width: 680px) {
-    section { width: 550px; }
-}
-@media screen and (max-width: 680px) and (min-width: 500px) {
+@media screen and (max-width: 900px) and (min-width: 600px) {
     section { width: 450px; box-shadow: unset; padding: 0; }
     section .border { border: none; }
     body { background-color: white }
+    .passage .text { font-size: 32px; }
+    .passage .link { font-size: 20px; }
 }
-@media screen and (max-width: 500px) {
-    section { width: 300px; box-shadow: unset; padding: 0; }
+@media screen and (max-width: 600px) {
+    section { width: 400px; box-shadow: unset; padding: 0; }
     section .border { border: none; }
     body { background-color: white }
+    .passage .text { font-size: 36px; }
+    .passage .link { font-size: 21px; }
 }
