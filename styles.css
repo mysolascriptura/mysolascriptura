@@ -1,14 +1,7 @@
-@font-face {
-    font-family: Un;
-    src: url("14120.TTF");
-}
 html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-}
-body {
-    background-color: #f9f9f9;
 }
 body {
     background-image: url("bg-top.png");
@@ -27,7 +20,6 @@ section {
     text-align: center;
     padding: 18px 26px;
     margin-bottom: 18px;
-    font-family: Un;
 }
 footer: {
     width: 100%;
@@ -69,31 +61,24 @@ section .border {
     margin-top: 16px;
 }
 .passage .text {
-    font-size: 26px;
+    font-size: 46px;
 }
 .passage .link {
-    font-size: 18px;
+    font-size: 30px;
 }
 .item .domain-address {
     font-size: 18px;
-    font-family: Tahoma;
 }
 .item .title {
     font-size: 20px;
     color: gray;
-    font-family: Tahoma;
 }
-@media screen and (max-width: 900px) and (min-width: 600px) {
-    section { width: 450px; box-shadow: unset; padding: 0; }
+@media screen and (max-width: 1000px) and (min-width: 800px) {
+    section { width: 800px; box-shadow: unset; padding: 0; }
     section .border { border: none; }
-    body { background-color: white }
-    .passage .text { font-size: 32px; }
-    .passage .link { font-size: 20px; }
+
 }
-@media screen and (max-width: 600px) {
-    section { width: 400px; box-shadow: unset; padding: 0; }
+@media screen and (max-width: 800px) {
+    section { width: 500px; box-shadow: unset; padding: 0; }
     section .border { border: none; }
-    body { background-color: white }
-    .passage .text { font-size: 36px; }
-    .passage .link { font-size: 21px; }
 }
