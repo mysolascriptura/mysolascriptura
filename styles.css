@@ -1,0 +1,91 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    background-color: #f9f9f9;
+}
+body {
+    background-image: url("bg-top.png");
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+}
+section {
+    max-width: 68em;
+    width: 720px;
+    margin: 36px auto;
+    padding: 18px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background-color: white;
+}
+.passage {
+    text-align: center;
+    padding: 18px 26px;
+    margin-bottom: 18px;
+}
+footer: {
+    width: 100%;
+    height: 24px;
+    background: green;
+    position: absolute;
+    bottom: 0;
+}
+.item {
+    margin: 0 12px 12px 12px;
+    display: flex;
+        flex-wrap: wrap;
+    /*border-top: 1px dotted rgb(200, 200, 200);
+    border-bottom: 1px dotted rgb(200, 200, 200);*/
+    padding: 20px 0;
+}
+.item .img-container {
+    display: inline-block;
+    width: 210px;
+    height: 80px;
+    padding: 0;
+    padding-right: 20px;
+}
+.item img {
+    max-height: 100%;
+    margin: auto;
+    display: block;
+}
+section .border {
+    border: solid 1px gray;
+}
+
+.divider {
+    height: 1px;
+    width: 100px;
+    background: black;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-top: 16px;
+}
+.text {
+    font-size: 26px;
+}
+.link {
+    font-size: 18px;
+}
+.item .domain-address {
+    font-size: 18px;
+}
+.item .title {
+    font-size: 20px;
+    color: gray;
+}
+@media screen and (max-width: 760px) and (min-width: 680px) {
+    section { width: 550px; }
+}
+@media screen and (max-width: 680px) and (min-width: 500px) {
+    section { width: 450px; box-shadow: unset; padding: 0; }
+    section .border { border: none; }
+    body { background-color: white }
+}
+@media screen and (max-width: 500px) {
+    section { width: 300px; box-shadow: unset; padding: 0; }
+    section .border { border: none; }
+    body { background-color: white }
+}
