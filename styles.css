@@ -46,7 +46,7 @@ section {
     margin: auto;
 }
 section .border {
-    border: solid 1px #283636;
+    border: solid 2px lightgray;
     padding: 32px;
 }
 
