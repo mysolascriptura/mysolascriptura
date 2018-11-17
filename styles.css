@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Un;
+    src: url("14120.TTF");
+}
 html, body {
     margin: 0;
     padding: 0;
@@ -20,6 +24,8 @@ section {
     text-align: center;
     padding: 18px 26px;
     margin-bottom: 18px;
+    font-family: Tahoma;
+    color: #283636;
 }
 footer: {
     width: 100%;
@@ -49,13 +55,13 @@ footer: {
     display: block;
 }
 section .border {
-    border: solid 1px gray;
+    border: solid 1px #283636;
 }
 
 .divider {
-    height: 1px;
+    height: 2px;
     width: 100px;
-    background: black;
+    background: #283636;
     display: inline-block;
     margin-bottom: 5px;
     margin-top: 16px;
@@ -68,10 +74,12 @@ section .border {
 }
 .item .domain-address {
     font-size: 18px;
+    font-family: Tahoma;
 }
 .item .title {
     font-size: 20px;
     color: gray;
+    font-family: Tahoma;
 }
 @media screen and (max-width: 1000px) and (min-width: 800px) {
     section { width: 800px; box-shadow: unset; padding: 0; }
