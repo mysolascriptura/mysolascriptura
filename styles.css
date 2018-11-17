@@ -76,10 +76,12 @@ section .border {
 }
 .item .domain-address {
     font-size: 18px;
+    font-family: Tahoma;
 }
 .item .title {
     font-size: 20px;
     color: gray;
+    font-family: Tahoma;
 }
 @media screen and (max-width: 900px) and (min-width: 600px) {
     section { width: 450px; box-shadow: unset; padding: 0; }
