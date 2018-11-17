@@ -22,8 +22,8 @@ section {
 }
 .passage {
     text-align: center;
-    padding: 18px 26px;
-    margin-bottom: 18px;
+    padding: 38px 26px;
+    margin-bottom: 50px;
     font-family: Tahoma;
     color: #283636;
 }
@@ -35,10 +35,10 @@ footer: {
     bottom: 0;
 }
 .item {
-    margin: 0 12px 12px 12px;
+    margin: 0px 20px;
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 8px 0;
     text-decoration: none;
     color: #283636;
 }
@@ -66,30 +66,30 @@ section .border {
     margin-top: 16px;
 }
 .passage .text {
-    font-size: 46px;
+    font-size: 36px;
 }
 .passage .link {
-    font-size: 30px;
+    font-size: 26px;
 }
 .item .domain-address {
-    font-size: 21px;
+    font-size: 18px;
     font-family: Tahoma;
-    line-height: 35px;
+    line-height: 24px;
 }
 .item .title {
-    font-size: 26px;
+    font-size: 21px;
     color: gray;
     font-family: Tahoma;
-    line-height: 35px;
 }
-@media screen and (max-width: 1000px) and (min-width: 800px) {
+@media screen and (max-width: 1000px) {
     section { width: 800px; box-shadow: unset; padding: 0; }
     section .border { border: none; }
-    .passage { margin-top: 56px; }
-
+    .passage { margin-top: 56px; padding: 18px 26px; }
+    .passage .text { font-size: 46px; }
+    .passage .link { font-size: 30px; }
+    .item .domain-address { font-size: 21px; line-height: 34px; }
+    .item .title { font-size: 26px; }
 }
 @media screen and (max-width: 800px) {
     section { width: 500px; box-shadow: unset; padding: 0; }
-    section .border { border: none; }
-    .passage { margin-top: 56px; }
 }
