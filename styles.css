@@ -22,21 +22,19 @@ section {
 .passage {
     text-align: center;
     padding: 38px 26px;
-    margin-bottom: 50px;
     font-family: Tahoma;
     color: #283636;
 }
 .item {
     margin: 0px 20px;
     display: flex;
-    flex-wrap: wrap;
     padding: 8px 0;
     text-decoration: none;
     color: #283636;
 }
 .item .img-container {
     display: flex;
-    width: 210px;
+    min-width: 210px;
     height: 80px;
     padding: 0;
     padding-right: 20px;
@@ -73,6 +71,14 @@ section .border {
     font-size: 21px;
     color: gray;
     font-family: Tahoma;
+}
+.intro {
+    margin-bottom: 50px;
+}
+.intro p {
+    font-size: 21px;
+    font-family: Tahoma;
+    color: #283636;
 }
 @media screen and (max-width: 1000px) {
     section { width: 800px; box-shadow: unset; padding: 0; }
