@@ -69,7 +69,7 @@ section .border {
 }
 .item .title {
     font-size: 21px;
-    color: gray;
+    color: rgb(137, 161, 162);
     font-family: Tahoma;
 }
 .intro {
@@ -79,6 +79,10 @@ section .border {
     font-size: 21px;
     font-family: Tahoma;
     color: #283636;
+}
+.intro a {
+    color: rgb(137, 161, 162);
+    text-decoration: none;
 }
 @media screen and (max-width: 1000px) {
     section { width: 800px; box-shadow: unset; padding: 0; }
