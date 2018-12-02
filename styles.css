@@ -61,7 +61,6 @@ section .textblock {
     display: flex;
     align-items: center;
     padding: 8px 0;
-    text-decoration: none;
     color: #283636;
 }
 .item .img-container {
@@ -77,9 +76,9 @@ section .textblock {
 }
 .item .domain-address {
     line-height: 24px;
+    font-size: 16px;
 }
 .item .title {
-    font-size: 21px;
     color: #297770;
 }
 
@@ -89,4 +88,10 @@ section .textblock {
 .intro p {
     padding: 0 24px;
     font-size: 18px;
+}
+@media screen and (max-width: 800px) {
+    .item .img-container { min-width: 140px; height: 35px; }
+    .passage { margin-top: 0px; }
+    .passage .text { font-size: 32px; }
+    .passage .link { font-size: 22px; }
 }
